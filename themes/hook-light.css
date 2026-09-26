@@ -1,0 +1,22 @@
+/* "this is the hook" light: giscus's light theme with the blog's blue ink (#1d4ed8) instead of GitHub green. */
+@import url("https://giscus.app/themes/light.css");
+
+main {
+  --color-accent-fg: #1d4ed8;
+  --color-accent-emphasis: #1d4ed8;
+  --color-accent-muted: #1d4ed866;
+  --color-accent-subtle: #1d4ed814;
+
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-bg: #1d4ed8;
+  --color-btn-primary-border: #1f232826;
+  --color-btn-primary-hover-bg: #1e40af;
+  --color-btn-primary-hover-border: #1f232826;
+  --color-btn-primary-selected-bg: #1e3a8a;
+  --color-btn-primary-selected-shadow: inset 0 1px 0 #0f1d4a33;
+  --color-btn-primary-disabled-text: #ffffffcc;
+  --color-btn-primary-disabled-bg: #93acec;
+  --color-btn-primary-disabled-border: #1f232826;
+
+  --color-scale-blue-1: #c7d6f8;
+}
